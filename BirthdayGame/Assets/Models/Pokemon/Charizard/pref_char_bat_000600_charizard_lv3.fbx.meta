@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: c784ad2d2ca854c8cbdac868c03f3d9b
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 7166184718316808477
+    second: ani_spell3b1_bat_0006
+  - first:
+      74: 3045121376438133620
+    second: ani_atk1runr_bat_0006
+  - first:
+      74: 3188775838441939762
+    second: ani_spell3b2_bat_0006
+  - first:
+      74: -4321332362496007074
+    second: ani_idleu_bat_0006
+  - first:
+      74: 8466414527119858476
+    second: ani_dead_bat_0006
+  - first:
+      74: 7642688015496718563
+    second: ani_idleutoidle_bat_0006
+  - first:
+      74: -8786762092557593090
+    second: ani_atk1runl_bat_0006
+  - first:
+      74: -2505684966317850305
+    second: ani_score_bat_0006
+  - first:
+      74: -4067031181882060534
+    second: ani_runutorun_bat_0006
+  - first:
+      74: 2329274163964837422
+    second: ani_spell1a_bat_0006
+  - first:
+      74: -2675866951039688487
+    second: ani_spellu3fail_bat_0006
+  - first:
+      74: 5100397254583414895
+    second: ani_atk2_bat_0006
+  - first:
+      74: -7383536774660739952
+    second: ani_idlefly_bat_0006
+  - first:
+      74: -423695411256229206
+    second: ani_spellu5_bat_0006
+  - first:
+      74: 3468318390728853790
+    second: ani_atk1runb_bat_0006
+  - first:
+      74: -1137945839895514673
+    second: ani_atk1runf_bat_0006
+  - first:
+      74: 1938663371415155289
+    second: ani_atk1_bat_0006
+  - first:
+      74: 7606232016652623330
+    second: ani_spellu4_bat_0006
+  - first:
+      74: -5162339118748547933
+    second: ani_idleutorun_bat_0006
+  - first:
+      74: -2268994996016124210
+    second: ani_stun_bat_0006
+  - first:
+      74: 214188441904227255
+    second: ani_spellu2_bat_0006
+  - first:
+      74: 5707850148627594841
+    second: ani_runutoidle_bat_0006
+  - first:
+      74: 3513400048057957013
+    second: ani_runfly_bat_0006
+  - first:
+      74: -5764884458120725631
+    second: ani_spell3_bat_0006
+  - first:
+      74: -7799403545189099603
+    second: ani_stunutostun_bat_0006
+  - first:
+      74: 2809261232219366637
+    second: ani_scoreidle_bat_0006
+  - first:
+      74: -1650986134998960762
+    second: ani_idle_lob_0006
+  - first:
+      74: -5210978382379013230
+    second: ani_spell1_bat_0006
+  - first:
+      74: 3953600707794365458
+    second: ani_runu_bat_0006
+  - first:
+      74: -9093789843758264136
+    second: ani_spell3b3_bat_0006
+  - first:
+      74: 8951632770365718257
+    second: ani_spell1b_bat_0006
+  - first:
+      74: 2706545158743311102
+    second: ani_stunu_bat_0006
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

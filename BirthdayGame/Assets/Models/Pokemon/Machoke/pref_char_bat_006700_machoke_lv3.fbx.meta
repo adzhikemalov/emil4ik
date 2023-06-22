@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 9a373ed27bbd0448c9ee12f001a26149
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -3413010054910030151
+    second: ani_atk1_bat_0067
+  - first:
+      74: 518892804291251783
+    second: ani_atk2_bat_0067
+  - first:
+      74: 8848520788369295158
+    second: ani_atk3_bat_0067
+  - first:
+      74: -5351796566835864346
+    second: ani_dead_bat_0067
+  - first:
+      74: -4092259562038381911
+    second: ani_idle_bat_0067
+  - first:
+      74: -4821226565682465370
+    second: ani_run_bat_0067
+  - first:
+      74: -1035749375903951890
+    second: ani_score_bat_0067
+  - first:
+      74: -150114698554503256
+    second: ani_scoreidle_bat_0067
+  - first:
+      74: -8040172894714343521
+    second: ani_spell1_bat_0067
+  - first:
+      74: 7605063959887618719
+    second: ani_spell1a1_bat_0067
+  - first:
+      74: 2910677406266326963
+    second: ani_spell1a1runf_bat_0067
+  - first:
+      74: -8003871057668245910
+    second: ani_spell1a2_bat_0067
+  - first:
+      74: 2283408421524743839
+    second: ani_spell1b_bat_0067
+  - first:
+      74: -992989180841997533
+    second: ani_spell2a2_bat_0067
+  - first:
+      74: 1373134825261556888
+    second: ani_spell2b_1_bat_0067
+  - first:
+      74: 5774388815756593376
+    second: ani_spell2b_2_bat_0067
+  - first:
+      74: -1274999036469524087
+    second: ani_spell2b_3_bat_0067
+  - first:
+      74: -231506966452350752
+    second: ani_spell2b_3a_bat_0067
+  - first:
+      74: 8526257559721811349
+    second: ani_spell2b_4_bat_0067
+  - first:
+      74: -3396778346300300860
+    second: ani_spell2b_5_bat_0067
+  - first:
+      74: 6655394105408405589
+    second: ani_stun_bat_0067
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
