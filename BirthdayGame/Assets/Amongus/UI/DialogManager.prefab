@@ -185,9 +185,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb0d6e1c257478586ea60fa9050b2af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogPrefab: {fileID: 6295489426504480830, guid: da85e89f247bf4926bddc45477f8a1b9,
+    type: 3}
   Joystick: {fileID: 0}
   DialogBackPrefab: {fileID: 822286847469921210, guid: fc90e745bcfea455da0d0ebf1a334173,
     type: 3}
+  EmilTot: {fileID: 11400000, guid: 372f26fd09fdd42bfb9e6955136bf033, type: 2}
+  Emine: {fileID: 11400000, guid: 298ec1ce9015fda4ebda2327e3fc7d78, type: 2}
+  Ismet: {fileID: 0}
+  Sound: {fileID: 0}
 --- !u!1 &7234345093925141518
 GameObject:
   m_ObjectHideFlags: 0

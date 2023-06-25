@@ -11,6 +11,10 @@ public class MiniGameManager : MonoBehaviour
     private Button _closeButton;
 
     public GameObject MiniGameAsteroids;
+    public GameObject MiniGameSimonSays;
+    public GameObject MiniGameElectricity;
+    public GameObject MiniGameCardMoving;
+    public GameObject MiniGameEnterNumbers;
 
     public void ShowMiniGame(InteractableObject.MiniGameId currentObjectMiniGame)
     {

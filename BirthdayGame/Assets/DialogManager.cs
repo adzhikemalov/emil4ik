@@ -10,8 +10,12 @@ public class DialogManager : MonoBehaviour
     public GameObject Joystick;
     public GameObject DialogBackPrefab;
     private Button _closeButton;
-
     public DialogData EmilTot;
+    public DialogData Emine;
+    public DialogData Ismet;
+    public DialogData Nataly;
+    public DialogData EmilMav;
+    public DialogData Cat;
     public AudioSource Sound;
 
     public void ShowDialog(InteractableObject.DialogId currentObjectDialog)
@@ -32,6 +36,36 @@ public class DialogManager : MonoBehaviour
         {
             case InteractableObject.DialogId.EmilTot:
                 CreateDialog(EmilTot);
+                break;
+        }
+        switch (dialogId)
+        {
+            case InteractableObject.DialogId.Emine:
+                CreateDialog(Emine);
+                break;
+        }
+        switch (dialogId)
+        {
+            case InteractableObject.DialogId.Ismet:
+                CreateDialog(Ismet);
+                break;
+        }
+        switch (dialogId)
+        {
+            case InteractableObject.DialogId.Nataly:
+                CreateDialog(Nataly);
+                break;
+        }
+        switch (dialogId)
+        {
+            case InteractableObject.DialogId.EmilMav:
+                CreateDialog(EmilMav);
+                break;
+        }
+        switch (dialogId)
+        {
+            case InteractableObject.DialogId.Cat:
+                CreateDialog(Cat);
                 break;
         }
     }
