@@ -12,6 +12,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace DigitalRubyShared
 {
@@ -175,6 +176,11 @@ namespace DigitalRubyShared
             }
         }
 
+        public void LoadNextScene()
+        {
+            SceneManager.LoadScene("Quest", LoadSceneMode.Single);
+        }
+        
         private void FixedUpdate()
         {
             Rb2d.velocity = _movementVector;

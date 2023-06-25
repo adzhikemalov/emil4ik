@@ -15,18 +15,8 @@ public class GamePanelController : MonoBehaviour
     {
         objectInstance = this;
     }
-    private void OnEnable() // когда панель становится активной
-    {
-        StartCoroutine(CheckForClose()); // сопрограмма отвечающая за закрытие данной панели
-    }
-    private IEnumerator CheckForClose()
-    {
-        yield return new WaitForSeconds(30f);
-        ClosePanel();
-    }
     private void ClosePanel()
     {
-        PlayerScoreInfo.objectInstance.AddExperience();
         gameObject.SetActive(false);
     }
 

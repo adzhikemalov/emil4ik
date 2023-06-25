@@ -47,6 +47,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: "\u0418\u0432\u0438"
   unitLevel: 0
+  Move1: {fileID: 11400000, guid: 85e6f2fd27a3d4be49d3486418215422, type: 2}
+  Move2: {fileID: 11400000, guid: 16844095a6b3f414db935ca267c832b8, type: 2}
+  Move3: {fileID: 11400000, guid: 05eaaf8324f6d4d67b24388583e04bf5, type: 2}
+  Move4: {fileID: 11400000, guid: a95022e624f9345d29aac8b974664eeb, type: 2}
   damage: 10
   maxHP: 50
   currentHP: 50

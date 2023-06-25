@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using PokemonBattle.TurnBasedCombat;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
+public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST, CHANGING }
 
 public class BattleSystem : MonoBehaviour
 {
-	public List<GameObject> Buttons;	
+	public List<GameObject> Buttons;
+	public List<GameObject> Pokemons;
 
 	public GameObject playerPrefab;
 	public GameObject enemyPrefab;
@@ -69,6 +71,44 @@ public class BattleSystem : MonoBehaviour
 		yield return new WaitForSeconds(2f);
 		ActivateBattleCam();
 
+		state = BattleState.PLAYERTURN;
+		PlayerTurn();
+	}
+
+	public IEnumerator ChangePokemon(Unit pokemon, bool isPlayer)
+	{
+		state = BattleState.CHANGING;
+		if (isPlayer)
+		{
+			ActivatePlayerCam();
+			dialogueText.text = "Эмиль вызывает " + pokemon.unitName + ".";
+			var unitGo = playerUnit.gameObject;
+			unitGo.transform.DOScale(Vector3.zero, 1f).OnComplete(() =>
+			{
+				GameObject playerGO = Instantiate(pokemon.gameObject, playerBattleStation);
+				playerUnit = playerGO.GetComponent<Unit>();
+				PlayerAnimator = playerGO.GetComponentInChildren<Animator>();
+				playerHUD.SetHUD(playerUnit);
+				SetupButtons();
+			});
+		}
+		else
+		{
+			ActivateEnemyCam();
+			dialogueText.text = "Противник вызывает " + pokemon.unitName + ".";
+			var unitGo = enemyUnit.gameObject;
+			unitGo.transform.DOScale(Vector3.zero, 1f).OnComplete(() =>
+			{
+				GameObject enemyGO = Instantiate(pokemon.gameObject, playerBattleStation);
+				enemyUnit = enemyGO.GetComponent<Unit>();
+				EnemyAnimator = enemyGO.GetComponentInChildren<Animator>();
+				enemyHUD.SetHUD(enemyUnit);
+			});
+		}
+		
+		yield return new WaitForSeconds(2f);
+		ActivateBattleCam();
+		
 		state = BattleState.PLAYERTURN;
 		PlayerTurn();
 	}
@@ -156,7 +196,7 @@ public class BattleSystem : MonoBehaviour
 	IEnumerator EnemyTurn()
 	{
 		var move = GetRandomMove(enemyUnit);
-		dialogueText.text = $"{playerUnit.unitName} использует {move.Name}";
+		dialogueText.text = $"{enemyUnit.unitName} использует {move.Name}";
 		EnemyAnimator.SetTrigger(GetAnimation(move.Animation));
 		// Wait for the transition to end
 		yield return new WaitUntil(() => EnemyAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime <= 1.0f );
