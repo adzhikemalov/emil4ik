@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6500467695099310406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6500467695099310408}
+  - component: {fileID: 6500467695099310407}
+  m_Layer: 0
+  m_Name: CharizardPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6500467695099310408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6500467695099310406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3929799819696035552}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6500467695099310407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6500467695099310406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475d8d7ed9646504888a5702b5d7ed33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitName: "\u0427\u0430\u0440\u0438\u0437\u0430\u0440\u0434"
+  unitLevel: 0
+  Move1: {fileID: 11400000, guid: 8a97a7b31f11c4e69bff688e8bdfe6ca, type: 2}
+  Move2: {fileID: 11400000, guid: 05eaaf8324f6d4d67b24388583e04bf5, type: 2}
+  Move3: {fileID: 11400000, guid: 70983ae4937324e44ae53edce9e2c7f3, type: 2}
+  Move4: {fileID: 11400000, guid: 85e6f2fd27a3d4be49d3486418215422, type: 2}
+  damage: 10
+  maxHP: 50
+  currentHP: 50
+--- !u!1001 &3032035626330264985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6500467695099310408}
+    m_Modifications:
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507817616413274585, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+        type: 3}
+      propertyPath: m_Name
+      value: Charizard
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f04fa02b2c274942bfea3e7c5019f01, type: 3}
+--- !u!4 &3929799819696035552 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2061100839201588089, guid: 3f04fa02b2c274942bfea3e7c5019f01,
+    type: 3}
+  m_PrefabInstance: {fileID: 3032035626330264985}
+  m_PrefabAsset: {fileID: 0}
