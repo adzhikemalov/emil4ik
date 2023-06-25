@@ -8,7 +8,8 @@ public class InteractableObject : MonoBehaviour
     public enum InteractableType
     {
         MiniGame,
-        Dialog
+        Dialog,
+        DeadBody
     }
     
     public enum MiniGameId
