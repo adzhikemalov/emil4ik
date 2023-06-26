@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934fae98d5eb400e91f2a26334dcdaf6, type: 3}
+  m_Name: 6.Natasha
+  m_EditorClassIdentifier: 
+  Sound: {fileID: 8300000, guid: c2f3bd0cdeed6654a8b628b1914d3917, type: 3}
+  Text: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E \u0431\u0435\u0440\u0435\u043C
+    \u043A\u0443\u0440\u0441 \u043D\u0430 \u043F\u043B\u0430\u043D\u0435\u0442\u0443
+    \u041F\u043E\u043A\u0435\u043C\u043E\u043D\u043E\u0432!"
+  Avatar: {fileID: -1274320041, guid: a2eb37954079ed14a9f67bdda197efcd, type: 3}
